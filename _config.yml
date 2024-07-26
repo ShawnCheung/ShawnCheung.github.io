@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://ShawnCheung.github.io"
 
 github:
-  username: Shawn Cheung # change to your github username
+  username: ShawnCheung # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: Shawn Cheung # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: cqu.zhangxuhao@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://x.com/ShawnCh43110582 # change to your twitter homepage
     - https://github.com/ShawnCheung # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
