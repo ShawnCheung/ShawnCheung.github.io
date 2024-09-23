@@ -1,7 +1,7 @@
 ---
 layout: post
 title: batchsize对模型训练的影响
-date: 2024-09-20 11:07 +0800
+date: 2024-09-23 14:07 +0800
 categories: [深度学习, 超参数]
 tags: [深度学习]
 ---
