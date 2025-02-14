@@ -1,0 +1,8 @@
+path:
+  data: "data"
+database:
+  type: "local"
+  rds:
+    psm: "toutiao.mysql.jeddak_pcc_write"
+  local:
+    path: "sqlite/model.db"
