@@ -26,8 +26,8 @@ tags: [部署]
 
 redis-cli -a TYPY4RCMnziJ5kjc --cluster create 10.186.38.79:6371 10.186.38.79:6372 10.186.38.79:6373 10.186.38.78:6374 10.186.38.78:6375 10.186.38.78:6376 --cluster-replicas 1
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](../_pics/image.png)
+![alt text](../pics/image-1.png)
 
 redis-cli -a TYPY4RCMnziJ5kjc --cluster check 10.186.38.78:6375
 redis-cli -c -a TYPY4RCMnziJ5kjc -h 10.186.38.78 -p 6376
