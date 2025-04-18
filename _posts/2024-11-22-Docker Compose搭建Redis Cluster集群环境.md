@@ -2,7 +2,7 @@
 layout: post
 title: Docker Compose 搭建 Redis Cluster 集群环境
 date: 2024-11-22 14:56 +0800
-categories: [Linux系统, 部署]
+categories: [linux系统, 部署]
 tags: [部署]
 ---
 
@@ -26,9 +26,8 @@ tags: [部署]
 
 redis-cli -a TYPY4RCMnziJ5kjc --cluster create 10.186.38.79:6371 10.186.38.79:6372 10.186.38.79:6373 10.186.38.78:6374 10.186.38.78:6375 10.186.38.78:6376 --cluster-replicas 1
 
-![alt text](../_pics/image.png)
-![alt text](../pics/image-1.png)
-
+![](https://raw.githubusercontent.com/ShawnCheung/MyPic/img/img/202504181620946.png)
+![](https://raw.githubusercontent.com/ShawnCheung/MyPic/img/img/202504181617476.png)
 redis-cli -a TYPY4RCMnziJ5kjc --cluster check 10.186.38.78:6375
 redis-cli -c -a TYPY4RCMnziJ5kjc -h 10.186.38.78 -p 6376
 
