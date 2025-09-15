@@ -24,6 +24,7 @@ curl -L https://github.com/docker/buildx/releases/latest/download/buildx-linux-a
 
 # 添加执行权限
 chmod +x ~/.docker/cli-plugins/docker-buildx
+cp ~/.docker/cli-plugins/docker-buildx /usr/lib/docker/cli-plugins/docker-buildx
 ```
 
 ## 检查buildx是否安装成功
